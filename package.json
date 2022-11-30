@@ -1,0 +1,18 @@
+{
+  "name": "Lodash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "async": "^3.2.4",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon /home/vedant/Vedant/Lodash/Async/05_Whilst.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
