@@ -1,39 +1,38 @@
 const async = require("async");
 const fs = require("fs")
-// 
 
-// const callback=(err,data)=>{
-//     if(err)
-//     {
-//         console.log(err)
-//     }
-//     else{
-//         console.log(data)
-//     }
-// }
-// async.series({
-//   add:(callback)=>{
-//     setTimeout(function(){
-//       callback(null,"Hi i am cool")
-//     },5000)
-//   },
-//   sub:(callback)=>{
-//     setTimeout(function(){
-//       callback(null,"in sub")
-//     },1000)
-//   },
-//   mult:(callback)=>{
-//     setTimeout(function(){
-//       callback(null,"in mult")
-//     },100)
-//   },
-//   div:(callback)=>{
-//     setTimeout(function(){
-//       callback(null,"in div")
-//     },3000)
-//   }
-// },callback
-// )
+
+const callback=(err,data)=>{
+    if(err)
+    {
+        console.log(err)
+    }
+    else{
+        console.log(data)
+    }
+}
+async.series({
+  add:(callback)=>{
+    setTimeout(function(){
+      callback(null,"Hi i am cool")
+    },5000)
+  },
+  sub:(callback)=>{
+    setTimeout(function(){
+      callback(null,"in sub")
+    },1000)
+  },
+  mult:(callback)=>{
+    setTimeout(function(){
+      callback(null,"in mult")
+    },100)
+  },
+  div:(callback)=>{
+    setTimeout(function(){
+      callback(null,"in div")
+    },3000)
+  }
+},callback)
 
 // async.parallel({
 //   add:(callback)=>{
@@ -114,15 +113,15 @@ const fs = require("fs")
 
 
 
-const callback=(err,data)=>{
-    if(err)
-    {
-        console.log(err)
-    }
-    else{
-        console.log(data)
-    }
-}
+// const callback=(err,data)=>{
+//     if(err)
+//     {
+//         console.log(err)
+//     }
+//     else{
+//         console.log(data)
+//     }
+// }
 
 
 
